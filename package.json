@@ -1,0 +1,31 @@
+{
+  "name": "parcel-vue-starter",
+  "version": "1.0.0",
+  "description": "ParcelJs Vue Strater",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npm run dev",
+    "dev":"parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saratonite/parcel-vue-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saratonite/parcel-vue-starter/issues"
+  },
+  "homepage": "https://github.com/saratonite/parcel-vue-starter#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-vue": "^1.5.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
+}
